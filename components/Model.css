@@ -1,0 +1,185 @@
+.modalBackground {
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(200, 200, 200);
+  position: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modalContainer {
+  opacity: 1;
+  border-style: solid;
+  border-width: 0px;
+  border-color: rgba(222, 222, 222, 1);
+  background-color: rgba(255, 255, 255, 0);
+  background-image: url(https://graphics.jst.ai/145868_327202461000PM_3.852481E-02_.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain; 
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width:700px;
+  height: 450px;
+}
+
+.logo{
+ position: relative;
+ left: 190px;
+  width: 100px; 
+  height: 30px; 
+  bottom: 20px;
+}
+.afterTitle{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.afterTitle h1
+{ 
+  position: relative;
+  left: 110px;
+  font-size: 45px;
+  font-weight:bolder;
+ bottom: 30px;
+}
+.afterTitle p{
+  position: relative;
+  left: 110px;
+  bottom: 55px;
+  font-size: 27px;
+  font-weight: 500;
+}
+.titleCloseBtn {
+  position: relative;
+  left: 283px;
+  border: 1px solid gray;
+  border-radius: 50%;
+  padding: 0;
+  margin: 0;
+  background-color: rgb(79, 78, 78);
+  display: flex;
+justify-content: center;
+align-items: center;
+bottom: 48px;
+font-size: 10px;
+
+ 
+}
+
+.titleCloseBtn button{
+position: relative;
+right: .5px;
+padding: 3px 6px;
+font-weight: 900;
+color: aliceblue;
+}
+
+
+
+.titleCloseBtn button {
+  background-color: transparent;
+  border: none;
+  font-size: 10px;
+  cursor: pointer;
+}
+
+.modalContainer .body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.inCenter p {
+  font-size: 14.6px;
+  font-weight: 100;
+  padding: 0;
+  margin: 2px;
+  position: relative;
+  bottom: 30px;
+  left: 260px;
+
+}
+
+.textFeild{
+  position: relative;
+ top: 20px;
+  left: 15px;
+  
+}
+.select{
+  width: 39px;
+  height: 19px;
+  padding-right: 5px;
+  border: none;
+  position: relative;
+  left: 15px;
+  border-radius: 5px;
+  top: 41.9px;
+  z-index: 0;
+
+}
+.input{
+  position: relative;
+  left: 10px;
+  border: none;
+  width: 200px;
+  height: 19px;
+  border-radius: 5px;
+  z-index: 1;
+  top: 40px;
+  
+}
+
+.textField input:focus,
+.textField select:focus {
+  border-color: transparent; /* Set border color to transparent when focused */
+  outline: none; /* Remove default outline */
+}
+
+.modalContainer .footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkbox{
+  position: relative;
+  left: 130.7px;
+  top: 10px;
+}
+
+.footerContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+}
+
+.footerLabel{
+  font-size: 9px;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  line-height: 1.1;
+  position: relative;
+  left: 148px;
+  bottom: 10px;
+  
+}
+
+
+.submitButton{
+color: azure;
+background-color: black;
+font-size: 14px;
+padding: 5px 82px;
+position: relative;
+
+left: 136px;
+}
